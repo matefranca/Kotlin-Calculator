@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
 }
 
 fun calculate(a:Int, b:Int, op:Int){
-
+    print("Your result is: ")
 
     when(op){
         0 -> println(a + b)
